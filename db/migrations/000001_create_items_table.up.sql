@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS reserve_balance (
 	id serial not null  PRIMARY key,
 	user_id varchar not null,
 	service_id varchar not null,
-	order_id varchar not null,
+	order_id varchar not null UNIQUE,
 	price float not null,
 	created_at TIMESTAMPtz not null DEFAULT(now())
 );
