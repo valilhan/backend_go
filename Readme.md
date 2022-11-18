@@ -5,7 +5,7 @@ Mail: ilyasovvalihan@gmail.com
 **Download**:
 
 ```jsx
-git clone [https://github.com/valilhan/backend_go.git](https://github.com/valilhan/backend_go.git)
+git clone https://github.com/valilhan/backend_go.git
 cd backend_go
 ```
 
